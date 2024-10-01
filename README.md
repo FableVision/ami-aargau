@@ -1,36 +1,29 @@
-# Starter Project
+# Summary
+Main Dev: Owen Hey (owen@fablevision.com)
 
-A starting point for new projects in Git.
+Producers: Kellian / Snow
 
-# Contents
-- .gitignore
-	- Root level ignore file with common names and patterns for Unity and web projects.
-	- Useful additions welcomed in this repository.
-- .gitattributes
-	- LFS file configuration for common large file types. Additional Unity settings.
-	- Useful additions welcomed in this repository.
-	
+This is one of the AMI projects, for the Aargau MOMA museum.
 
-# Instructions
-- When starting a new project, use this as a template.
-- In GitHub
-	- Project should be named with all lower-case letters and dashes only.
-	- Name: [client name]-[project name]-[dev/art/etc.]
-	- Add FableVision Staff and give write access.
-	- Add FableVision Dev team and give admin access.
-	- Add freelancer access on a per-person basis.
-- In the new project, this README file should contain the following information:
-	- The name and email of the lead developer.
-	- Instructions about how to set up a development environment. This is everything a developer would need to know after cloning the project. For example: node commands, frameworks used and version numbers, Unity version number, etc.
-	- Instructions about how to make builds.
-	- Instructions for deployment to development, staging, and production servers, or to app stores. 
-- Alternately, this README file should tell where to find this information.
+There is a content sheet here: https://docs.google.com/spreadsheets/d/1ZoJpM_bfQw78Rzfk8jzCsRyD0K8B6bSZuDxG-cqcw0A/edit?gid=0#gid=0
+- You can export the json and put it into the text.json, and then upload to fvdev3
 
+GDD: LINK HERE
 
-# Considerations
-- Include references to 
-	- Minimum device spec.
-	- Tech spec.
-- Info about branching strategy
+# Dev stuff
+There are two codebases here, the python server and the frontend (Vue)
 
-# Questions
+For the frontend:
+- cd into the `frontend` directory
+- Maybe run npm install to get packages
+- `npm run dev` to run locally
+- `npm run build` to run build
+
+The build goes up on fvdev3 under ami.fablevision-dev/aargau
+
+For the backend (python server):
+- cd into `python-server`
+- you need python3 for this, install that, and then install Flask and flaskcors
+- To get flask / flaskcors: either `pip install Flask` and `pip install flaskcors` OR `python3 -m pip install Flask` and `python3 -m pip install flaskcors`
+- This runs as a service up on fvdev3. The service can be found in `etc/systemd/system/`. This just runs the python server when fvdev3 restarts.
+- The app.py can be found in vhosts under ami-aargau-server.fablevision-dev
