@@ -5,7 +5,7 @@ Producers: Kellian / Snow
 
 This is one of the AMI projects, for the Aargau MOMA museum.
 
-There is a content sheet here: https://docs.google.com/spreadsheets/d/1ZoJpM_bfQw78Rzfk8jzCsRyD0K8B6bSZuDxG-cqcw0A/edit?gid=0#gid=0
+There is a content sheet [here](https://docs.google.com/spreadsheets/d/1ZoJpM_bfQw78Rzfk8jzCsRyD0K8B6bSZuDxG-cqcw0A/edit?gid=0#gid=0):
 - You can export the json and put it into the text.json, and then upload to fvdev3
 
 GDD: [LINK HERE](https://docs.google.com/document/d/1VYomxuFA_c6z58PgrfWNEcfWgGIkAOsSQq1h881cuGM/edit)
