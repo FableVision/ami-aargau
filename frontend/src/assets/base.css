@@ -1,0 +1,143 @@
+:root {
+  --red: #A03131;
+  --white:rgb(255, 255, 255);
+  --black:#121212;
+  --beige: #FCEAC6;
+  --light-beige: #FBF7E9;
+
+
+  font-family: "Albert Sans";
+}
+
+h1, h2, h3 {
+  font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 20pt;
+}
+
+div, p, .body-text {
+  font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 0;
+  font-style: normal;
+  font-size: 20pt;
+  color: black;
+}
+
+#top-buttons-container{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 50px;
+  background-color: var(--beige);
+}
+
+.nav-button{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  gap: 10px;
+}
+
+#home-button{
+  top: 5px;
+  right: 0px;
+}
+
+#back-button{
+  top: 5px;
+  left: 0px;
+  font-size: 14pt;
+  text-decoration: none;
+}
+
+#back-image{
+  width: 40px;
+  height: 40px;
+}
+
+#home-image{
+  width: 40px;
+  height: 40px;
+}
+
+button{
+  font-family: "Albert Sans";
+  font-weight: 700;
+}
+
+#group-banner{
+  position: fixed;
+  height: 100px;
+  top: 50px;
+  background-color: var(--red);
+  width: 100%;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.banner-img-container{
+  height: 80px;
+  width: 80px;
+  margin-left: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: var(--beige);
+}
+
+.banner-img{
+  height: 70px;
+  width: 70px;
+}
+
+.banner-team-text{
+  color: white;
+  font-weight: 350;
+  font-size: 14pt;
+}
+
+.banner-round-text{
+  color: white; 
+  font-weight: 500; 
+}
+
+.confirm-button{
+  font-size: 16pt;
+  font-weight: 450;
+  background-color: var(--red);
+  color: white;
+  border-radius: 50px;
+  border: none;
+  padding: 10px;
+  width: 300px;
+}
+
+.uninteractable{
+  background-color: #a0313142;
+  color: rgba(255, 255, 255, 0.292);
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.option-button{
+  font-size: 16pt;
+  font-weight: 450;
+  background-color: var(--beige);
+  color: var(--red);
+  border-radius: 50px;
+  border: solid 3px var(--red);
+  padding: 10px;
+  width: 300px;
+}

@@ -1,0 +1,552 @@
+{
+    "artwork_list": [
+        {
+            "artworkName": "Mona Lisa",
+            "artworkId": 1,
+            "imageFileName": "4617_1",
+            "judgeStatement": "The tallest person.",
+            "question": "How many ________ are there?",
+            "answerType": "Character (singular) "
+        },
+        {
+            "artworkName": "Caroline Bachmann, 58 av. J.-C., 2020",
+            "artworkId": 2,
+            "imageFileName": 5626,
+            "judgeStatement": "The shortest person.",
+            "question": "Das grosse Auge in der Mitte ist ein Symbol für __________.",
+            "answerType": "Character (plural) "
+        },
+        {
+            "artworkName": "Hans Ernst Brühlmann, Mädchen auf dem Hügel, 1907",
+            "artworkId": 3,
+            "imageFileName": 6246,
+            "judgeStatement": "The oldest person.",
+            "question": "Irgendwie fehlt mir hier etwas. Ach genau, es sind __________. ",
+            "answerType": "Practices/States"
+        },
+        {
+            "artworkName": "Other artwork name",
+            "artworkId": 4,
+            "imageFileName": "D853",
+            "judgeStatement": "The youngest person",
+            "question": "Which one of  ________ is the coolest?",
+            "answerType": "Locations"
+        },
+        {
+            "artworkName": "Ghost of the past",
+            "artworkId": 5,
+            "imageFileName": "S5775_02",
+            "judgeStatement": "The happiest person",
+            "question": "What's the square root of _______?",
+            "answerType": "Objects (plural)"
+        }
+    ],
+    "answers": [
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Bundesrat Beat Jans"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "ein sabbernder Blindenhund"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Hodler auf dem Totenbett"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Ein Genie"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Monas Lisas Onkel"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Ein Gönner"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Beyoncé im Louvre"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Die Chefetage"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Das Museums-Gespenst"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "der Präsident des Kunstvereins"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Justin Biber"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Eine Kunstkritikerin"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Museumscheniker:in"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Alfred Hitchcock"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Deine Grossmutter"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Ein Blickreporter"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Die Kunsthaus-Band"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Ein unzufriedener Besucher"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "der Pöstler"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Banksy"
+        },
+        {
+            "wordCategory": "Character (plural) ",
+            "word": "bekiffte Künstler"
+        },
+        {
+            "wordCategory": "Character (plural) ",
+            "word": "schlafende Aufsichten"
+        },
+        {
+            "wordCategory": "Character (plural) ",
+            "word": "alte, genervte Besucherinnen"
+        },
+        {
+            "wordCategory": "Character (plural) ",
+            "word": " kreischende, untalemntierte Kinder"
+        },
+        {
+            "wordCategory": "Character (plural) ",
+            "word": "Kunstfälscher"
+        },
+        {
+            "wordCategory": "Character (plural) ",
+            "word": "Kunstdiebe"
+        },
+        {
+            "wordCategory": "Character (plural) ",
+            "word": "vergessliche Sammlerinnen"
+        },
+        {
+            "wordCategory": "Character (plural) ",
+            "word": "Touristen"
+        },
+        {
+            "wordCategory": "Character (plural) ",
+            "word": "Praktikant:innen auf Rollschuhen"
+        },
+        {
+            "wordCategory": "Character (plural) ",
+            "word": " verwirrte Techniker:innen"
+        },
+        {
+            "wordCategory": "Character (plural) ",
+            "word": "Paparazzis"
+        },
+        {
+            "wordCategory": "Character (plural) ",
+            "word": "neureiche Influencer"
+        },
+        {
+            "wordCategory": "Character (plural) ",
+            "word": "hyperaktive Schulklassen"
+        },
+        {
+            "wordCategory": "Character (plural) ",
+            "word": "Naturmenschen"
+        },
+        {
+            "wordCategory": "Character (plural) ",
+            "word": "Besserwisser"
+        },
+        {
+            "wordCategory": "Character (plural) ",
+            "word": "tote Kunstschaffende"
+        },
+        {
+            "wordCategory": "Character (plural) ",
+            "word": "Neobünzlis"
+        },
+        {
+            "wordCategory": "Character (plural) ",
+            "word": "Kunstbanausen"
+        },
+        {
+            "wordCategory": "Character (plural) ",
+            "word": "Strickende Omas"
+        },
+        {
+            "wordCategory": "Character (plural) ",
+            "word": "Nerds"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "Vincent van Goghs Ohr"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "die Alarmanlage"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "ein lebendes Kunstwerk"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "ein halbes Schaf"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "Intelligente Kunst"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "eine an die Wand geklebte Banane"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "Grosse, runde Kreise"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "Eine wohl geformte Nase"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "ein schwarzes Viereck"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "der Eingangsschlüssel"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "Raubkunst"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "Kopfschmerzen"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "Ein Anfassverbot"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "die Farbe Rot"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "ein grosses Fragezeichen"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "ein Instapost"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "Fake News"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "Frauenquote"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "Künstliche Intelligenz"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "Eine Million"
+        },
+        {
+            "wordCategory": "Objects (plural)",
+            "word": "verknotete Kopfhörer"
+        },
+        {
+            "wordCategory": "Objects (plural)",
+            "word": "Meditationsrundgänge"
+        },
+        {
+            "wordCategory": "Objects (plural)",
+            "word": "Überwachungskameras"
+        },
+        {
+            "wordCategory": "Objects (plural)",
+            "word": "1'000'000 CHF"
+        },
+        {
+            "wordCategory": "Objects (plural)",
+            "word": "trockene Kuchen im Museumscafé"
+        },
+        {
+            "wordCategory": "Objects (plural)",
+            "word": "tanzende Skelette"
+        },
+        {
+            "wordCategory": "Objects (plural)",
+            "word": "Regenbogenfarben"
+        },
+        {
+            "wordCategory": "Objects (plural)",
+            "word": "gefälschte Unterschriften"
+        },
+        {
+            "wordCategory": "Objects (plural)",
+            "word": "Weltuntergansszenen"
+        },
+        {
+            "wordCategory": "Objects (plural)",
+            "word": "Gartenzwerge und Teddys"
+        },
+        {
+            "wordCategory": "Objects (plural)",
+            "word": "Brennende Bilderrahmen"
+        },
+        {
+            "wordCategory": "Objects (plural)",
+            "word": "Viele bunte Smarties"
+        },
+        {
+            "wordCategory": "Objects (plural)",
+            "word": " Farbefressende Bakterien"
+        },
+        {
+            "wordCategory": "Objects (plural)",
+            "word": "Giftige Substanzen"
+        },
+        {
+            "wordCategory": "Objects (plural)",
+            "word": "Wachsende Kristalle"
+        },
+        {
+            "wordCategory": "Objects (plural)",
+            "word": "Peinliche Titel"
+        },
+        {
+            "wordCategory": "Objects (plural)",
+            "word": "Kunstwerke zum Essen"
+        },
+        {
+            "wordCategory": "Objects (plural)",
+            "word": "Skulpturen aus Vogelfutter"
+        },
+        {
+            "wordCategory": "Objects (plural)",
+            "word": "Smartphones"
+        },
+        {
+            "wordCategory": "Objects (plural)",
+            "word": "Fehlende Sitzgelegenheiten"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "Actionpainting"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "Kulturelle Aneignung"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "Farbe essen"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "Viel Lärm um nichts"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "erzwungenes Überinterpretieren"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "Ausdruckstanz"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "schrecklich altern"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "Wenig für viel Geld"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "etwas, das ich auch könnte"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "Realitätsferne"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "über den Rand malen"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "Tomatensauce auf Kunstwerken"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "einen Shitstorm auslösen"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "wilde Farbkombinationen"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "den Namen tanzen"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "Malen nach Zahlen"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "Provokation"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "Bildmanipulation"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "ein Loch ins Bild schneiden"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "die Frage nach dem Sinn"
+        },
+        {
+            "wordCategory": "Locations",
+            "word": "Abstellkammer für kaputte Rahmen"
+        },
+        {
+            "wordCategory": "Locations",
+            "word": "Museum für schlechte Kunst"
+        },
+        {
+            "wordCategory": "Locations",
+            "word": "Die laute Eingangshalle"
+        },
+        {
+            "wordCategory": "Locations",
+            "word": "Das Sauriermuseum"
+        },
+        {
+            "wordCategory": "Locations",
+            "word": "die verstaubte Vitrine"
+        },
+        {
+            "wordCategory": "Locations",
+            "word": "Dach der Kunsthauses"
+        },
+        {
+            "wordCategory": "Locations",
+            "word": "Souvenir-Ecke"
+        },
+        {
+            "wordCategory": "Locations",
+            "word": "Apéro für geladene Gäste"
+        },
+        {
+            "wordCategory": "Locations",
+            "word": "Aarauer Rüeblimärt"
+        },
+        {
+            "wordCategory": "Locations",
+            "word": "Alpen"
+        },
+        {
+            "wordCategory": "Locations",
+            "word": "Zahnarztpraxis"
+        },
+        {
+            "wordCategory": "Locations",
+            "word": "Hauptbahnhof"
+        },
+        {
+            "wordCategory": "Locations",
+            "word": "Christoph Blochers Privatsammlung"
+        },
+        {
+            "wordCategory": "Locations",
+            "word": "Schwimmbad"
+        },
+        {
+            "wordCategory": "Locations",
+            "word": "Damentoilette"
+        },
+        {
+            "wordCategory": "Locations",
+            "word": "Baustelle"
+        },
+        {
+            "wordCategory": "Locations",
+            "word": "Coop"
+        },
+        {
+            "wordCategory": "Locations",
+            "word": "Dönerbude"
+        },
+        {
+            "wordCategory": "Locations",
+            "word": "Mac Donalds"
+        },
+        {
+            "wordCategory": "Locations",
+            "word": "Schulzimmer"
+        }
+    ],
+    "question_order": [
+        {
+            "teamName": "Ant",
+            "artworkIdOrder": "1, 2, 3, 4, 5"
+        },
+        {
+            "teamName": "Butterfly",
+            "artworkIdOrder": "2, 3, 4, 5, 1"
+        },
+        {
+            "teamName": "Cat",
+            "artworkIdOrder": "4, 3, 2, 1, 5"
+        },
+        {
+            "teamName": "Octopus",
+            "artworkIdOrder": "5, 4, 3, 2, 1"
+        },
+        {
+            "teamName": "Owl",
+            "artworkIdOrder": "3, 5, 4, 2, 1"
+        },
+        {
+            "teamName": "Whale",
+            "artworkIdOrder": "2, 4, 3, 5, 1"
+        }
+    ]
+}
