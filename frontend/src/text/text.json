@@ -1,552 +1,1789 @@
 {
     "artwork_list": [
         {
-            "artworkName": "Mona Lisa",
+            "artworkName": "Ernst Ludwig Kirchner, Der Wanderer, 1922",
             "artworkId": 1,
-            "imageFileName": "4617_1",
-            "judgeStatement": "The tallest person.",
-            "question": "How many ________ are there?",
-            "answerType": "Character (singular) "
+            "imageFileName": 3829,
+            "judgeStatement": "Die grösste Person.",
+            "question": "Wenn man genau hinschaut, entdeckt man im Hintergrund des Bildes __________.  ",
+            "answerType": "Objects (singular) + (plural)"
         },
         {
             "artworkName": "Caroline Bachmann, 58 av. J.-C., 2020",
             "artworkId": 2,
-            "imageFileName": 5626,
-            "judgeStatement": "The shortest person.",
+            "imageFileName": 8548,
+            "judgeStatement": "Die jüngste Person.",
             "question": "Das grosse Auge in der Mitte ist ein Symbol für __________.",
-            "answerType": "Character (plural) "
+            "answerType": "Objects (singular) + (plural)"
         },
         {
-            "artworkName": "Hans Ernst Brühlmann, Mädchen auf dem Hügel, 1907",
+            "artworkName": "Albrecht Schnider, Ohne Titel, 1999",
             "artworkId": 3,
-            "imageFileName": 6246,
-            "judgeStatement": "The oldest person.",
-            "question": "Irgendwie fehlt mir hier etwas. Ach genau, es sind __________. ",
-            "answerType": "Practices/States"
-        },
-        {
-            "artworkName": "Other artwork name",
-            "artworkId": 4,
-            "imageFileName": "D853",
-            "judgeStatement": "The youngest person",
-            "question": "Which one of  ________ is the coolest?",
+            "imageFileName": 5629,
+            "judgeStatement": "Die Person, mit den längsten Haaren.",
+            "question": "Dieses Werk bringt mich gedanklich immer dorthin zurück: __________. ",
             "answerType": "Locations"
         },
         {
-            "artworkName": "Ghost of the past",
-            "artworkId": 5,
-            "imageFileName": "S5775_02",
-            "judgeStatement": "The happiest person",
-            "question": "What's the square root of _______?",
+            "artworkName": "Hans Ernst Brühlmann, Mädchen auf dem Hügel, 1907",
+            "artworkId": 4,
+            "imageFileName": 1416,
+            "judgeStatement": "Die Person, die als erste im Jahr Geburtstag hatte.",
+            "question": "Irgendwie fehlt mir hier etwas. Ach genau, es sind __________. ",
             "answerType": "Objects (plural)"
+        },
+        {
+            "artworkName": "Arnold Böcklin, Ruine am Meer, 1880",
+            "artworkId": 5,
+            "imageFileName": 4853,
+            "judgeStatement": "Die Person, die als letzte im Jahr Geburtstag hat.",
+            "question": "Zu verkaufen: Haus mit Meerblick. Vorheriger Besitzer: __________.",
+            "answerType": "Character (plural) "
+        },
+        {
+            "artworkName": "Samuel Buri, Châlet psychédélique, 1967",
+            "artworkId": 6,
+            "imageFileName": 6246,
+            "judgeStatement": "Die kleinste Person.",
+            "question": "Dieses Werk wurde dem Aargauer Kunsthaus von __________ geschenkt. ",
+            "answerType": "Character (plural) "
+        },
+        {
+            "artworkName": "Urs Lüthi, The End. Selbstporträt aus der \"Serie der reinen Hingabe\", 1987/1988",
+            "artworkId": 7,
+            "imageFileName": 4617,
+            "judgeStatement": "Die Person, deren Namen im Alphabet als erstes kommt.",
+            "question": "So sieht das Ende aus - Aber am Anfang war dieses Werk __________. ",
+            "answerType": "Objects (plural)"
+        },
+        {
+            "artworkName": "Adrian Schiess, Klotz",
+            "artworkId": 8,
+            "imageFileName": 5775,
+            "judgeStatement": "Die älteste Person.",
+            "question": "__________ würde dem Werk den letzten Schliff verleihen.",
+            "answerType": "Character (singular) + Objects (singular) + Practices/States"
         }
     ],
     "answers": [
         {
-            "wordCategory": "Character (singular) ",
-            "word": "Bundesrat Beat Jans"
-        },
-        {
-            "wordCategory": "Character (singular) ",
-            "word": "ein sabbernder Blindenhund"
-        },
-        {
-            "wordCategory": "Character (singular) ",
-            "word": "Hodler auf dem Totenbett"
-        },
-        {
-            "wordCategory": "Character (singular) ",
-            "word": "Ein Genie"
-        },
-        {
-            "wordCategory": "Character (singular) ",
-            "word": "Monas Lisas Onkel"
-        },
-        {
-            "wordCategory": "Character (singular) ",
-            "word": "Ein Gönner"
-        },
-        {
-            "wordCategory": "Character (singular) ",
-            "word": "Beyoncé im Louvre"
-        },
-        {
-            "wordCategory": "Character (singular) ",
-            "word": "Die Chefetage"
-        },
-        {
-            "wordCategory": "Character (singular) ",
-            "word": "Das Museums-Gespenst"
-        },
-        {
-            "wordCategory": "Character (singular) ",
-            "word": "der Präsident des Kunstvereins"
-        },
-        {
-            "wordCategory": "Character (singular) ",
-            "word": "Justin Biber"
-        },
-        {
-            "wordCategory": "Character (singular) ",
-            "word": "Eine Kunstkritikerin"
-        },
-        {
-            "wordCategory": "Character (singular) ",
-            "word": "Museumscheniker:in"
-        },
-        {
-            "wordCategory": "Character (singular) ",
-            "word": "Alfred Hitchcock"
-        },
-        {
-            "wordCategory": "Character (singular) ",
-            "word": "Deine Grossmutter"
-        },
-        {
-            "wordCategory": "Character (singular) ",
-            "word": "Ein Blickreporter"
-        },
-        {
-            "wordCategory": "Character (singular) ",
-            "word": "Die Kunsthaus-Band"
-        },
-        {
-            "wordCategory": "Character (singular) ",
-            "word": "Ein unzufriedener Besucher"
-        },
-        {
-            "wordCategory": "Character (singular) ",
-            "word": "der Pöstler"
-        },
-        {
-            "wordCategory": "Character (singular) ",
-            "word": "Banksy"
+            "wordCategory": "Character (plural) ",
+            "word": "bekiffte Künstler",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Character (plural) ",
-            "word": "bekiffte Künstler"
+            "word": "schlafende Aufsichten",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Character (plural) ",
-            "word": "schlafende Aufsichten"
+            "word": "alte, genervte Besucherinnen",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Character (plural) ",
-            "word": "alte, genervte Besucherinnen"
+            "word": "kreischende, untalentierte Kinder",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Character (plural) ",
-            "word": " kreischende, untalemntierte Kinder"
+            "word": "Kunstfälscher",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Character (plural) ",
-            "word": "Kunstfälscher"
+            "word": "Kunstdiebe",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Character (plural) ",
-            "word": "Kunstdiebe"
+            "word": "vergessliche Sammlerinnen",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Character (plural) ",
-            "word": "vergessliche Sammlerinnen"
+            "word": "Touristen",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Character (plural) ",
-            "word": "Touristen"
+            "word": "Praktikant:innen auf Rollschuhen",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Character (plural) ",
-            "word": "Praktikant:innen auf Rollschuhen"
+            "word": " verwirrte Techniker:innen",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Character (plural) ",
-            "word": " verwirrte Techniker:innen"
+            "word": "Paparazzis",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Character (plural) ",
-            "word": "Paparazzis"
+            "word": "neureiche Influencer",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Character (plural) ",
-            "word": "neureiche Influencer"
+            "word": "hyperaktive Schulklassen",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Character (plural) ",
-            "word": "hyperaktive Schulklassen"
+            "word": "Naturmenschen",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Character (plural) ",
-            "word": "Naturmenschen"
+            "word": "Besserwisser",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Character (plural) ",
-            "word": "Besserwisser"
+            "word": "tote Kunstschaffende",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Character (plural) ",
-            "word": "tote Kunstschaffende"
+            "word": "Neobünzlis",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Character (plural) ",
-            "word": "Neobünzlis"
+            "word": "Kunstbanausen",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Character (plural) ",
-            "word": "Kunstbanausen"
+            "word": "Strickende Omas",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Character (plural) ",
-            "word": "Strickende Omas"
-        },
-        {
-            "wordCategory": "Character (plural) ",
-            "word": "Nerds"
-        },
-        {
-            "wordCategory": "Objects (singular)",
-            "word": "Vincent van Goghs Ohr"
-        },
-        {
-            "wordCategory": "Objects (singular)",
-            "word": "die Alarmanlage"
-        },
-        {
-            "wordCategory": "Objects (singular)",
-            "word": "ein lebendes Kunstwerk"
-        },
-        {
-            "wordCategory": "Objects (singular)",
-            "word": "ein halbes Schaf"
-        },
-        {
-            "wordCategory": "Objects (singular)",
-            "word": "Intelligente Kunst"
-        },
-        {
-            "wordCategory": "Objects (singular)",
-            "word": "eine an die Wand geklebte Banane"
-        },
-        {
-            "wordCategory": "Objects (singular)",
-            "word": "Grosse, runde Kreise"
-        },
-        {
-            "wordCategory": "Objects (singular)",
-            "word": "Eine wohl geformte Nase"
-        },
-        {
-            "wordCategory": "Objects (singular)",
-            "word": "ein schwarzes Viereck"
-        },
-        {
-            "wordCategory": "Objects (singular)",
-            "word": "der Eingangsschlüssel"
-        },
-        {
-            "wordCategory": "Objects (singular)",
-            "word": "Raubkunst"
-        },
-        {
-            "wordCategory": "Objects (singular)",
-            "word": "Kopfschmerzen"
-        },
-        {
-            "wordCategory": "Objects (singular)",
-            "word": "Ein Anfassverbot"
-        },
-        {
-            "wordCategory": "Objects (singular)",
-            "word": "die Farbe Rot"
-        },
-        {
-            "wordCategory": "Objects (singular)",
-            "word": "ein grosses Fragezeichen"
-        },
-        {
-            "wordCategory": "Objects (singular)",
-            "word": "ein Instapost"
-        },
-        {
-            "wordCategory": "Objects (singular)",
-            "word": "Fake News"
-        },
-        {
-            "wordCategory": "Objects (singular)",
-            "word": "Frauenquote"
-        },
-        {
-            "wordCategory": "Objects (singular)",
-            "word": "Künstliche Intelligenz"
-        },
-        {
-            "wordCategory": "Objects (singular)",
-            "word": "Eine Million"
+            "word": "Nerds",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Objects (plural)",
-            "word": "verknotete Kopfhörer"
+            "word": "verknotete Kopfhörer",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Objects (plural)",
-            "word": "Meditationsrundgänge"
+            "word": "Meditationsrundgänge",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Objects (plural)",
-            "word": "Überwachungskameras"
+            "word": "Überwachungskameras",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Objects (plural)",
-            "word": "1'000'000 CHF"
+            "word": "1'000'000 CHF",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Objects (plural)",
-            "word": "trockene Kuchen im Museumscafé"
+            "word": "trockene Kuchen im Museumscafé",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Objects (plural)",
-            "word": "tanzende Skelette"
+            "word": "tanzende Skelette",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Objects (plural)",
-            "word": "Regenbogenfarben"
+            "word": "Regenbogenfarben",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Objects (plural)",
-            "word": "gefälschte Unterschriften"
+            "word": "gefälschte Unterschriften",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Objects (plural)",
-            "word": "Weltuntergansszenen"
+            "word": "Weltuntergansszenen",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Objects (plural)",
-            "word": "Gartenzwerge und Teddys"
+            "word": "Gartenzwerge und Teddys",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Objects (plural)",
-            "word": "Brennende Bilderrahmen"
+            "word": "Brennende Bilderrahmen",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Objects (plural)",
-            "word": "Viele bunte Smarties"
+            "word": "Viele bunte Smarties",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Objects (plural)",
-            "word": " Farbefressende Bakterien"
+            "word": " Farbefressende Bakterien",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Objects (plural)",
-            "word": "Giftige Substanzen"
+            "word": "Giftige Substanzen",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Objects (plural)",
-            "word": "Wachsende Kristalle"
+            "word": "Wachsende Kristalle",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Objects (plural)",
-            "word": "Peinliche Titel"
+            "word": "Peinliche Titel",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Objects (plural)",
-            "word": "Kunstwerke zum Essen"
+            "word": "Kunstwerke zum Essen",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Objects (plural)",
-            "word": "Skulpturen aus Vogelfutter"
+            "word": "Skulpturen aus Vogelfutter",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Objects (plural)",
-            "word": "Smartphones"
+            "word": "Smartphones",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Objects (plural)",
-            "word": "Fehlende Sitzgelegenheiten"
-        },
-        {
-            "wordCategory": "Practices/States",
-            "word": "Actionpainting"
-        },
-        {
-            "wordCategory": "Practices/States",
-            "word": "Kulturelle Aneignung"
-        },
-        {
-            "wordCategory": "Practices/States",
-            "word": "Farbe essen"
-        },
-        {
-            "wordCategory": "Practices/States",
-            "word": "Viel Lärm um nichts"
-        },
-        {
-            "wordCategory": "Practices/States",
-            "word": "erzwungenes Überinterpretieren"
-        },
-        {
-            "wordCategory": "Practices/States",
-            "word": "Ausdruckstanz"
-        },
-        {
-            "wordCategory": "Practices/States",
-            "word": "schrecklich altern"
-        },
-        {
-            "wordCategory": "Practices/States",
-            "word": "Wenig für viel Geld"
-        },
-        {
-            "wordCategory": "Practices/States",
-            "word": "etwas, das ich auch könnte"
-        },
-        {
-            "wordCategory": "Practices/States",
-            "word": "Realitätsferne"
-        },
-        {
-            "wordCategory": "Practices/States",
-            "word": "über den Rand malen"
-        },
-        {
-            "wordCategory": "Practices/States",
-            "word": "Tomatensauce auf Kunstwerken"
-        },
-        {
-            "wordCategory": "Practices/States",
-            "word": "einen Shitstorm auslösen"
-        },
-        {
-            "wordCategory": "Practices/States",
-            "word": "wilde Farbkombinationen"
-        },
-        {
-            "wordCategory": "Practices/States",
-            "word": "den Namen tanzen"
-        },
-        {
-            "wordCategory": "Practices/States",
-            "word": "Malen nach Zahlen"
-        },
-        {
-            "wordCategory": "Practices/States",
-            "word": "Provokation"
-        },
-        {
-            "wordCategory": "Practices/States",
-            "word": "Bildmanipulation"
-        },
-        {
-            "wordCategory": "Practices/States",
-            "word": "ein Loch ins Bild schneiden"
-        },
-        {
-            "wordCategory": "Practices/States",
-            "word": "die Frage nach dem Sinn"
+            "word": "Fehlende Sitzgelegenheiten",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Locations",
-            "word": "Abstellkammer für kaputte Rahmen"
+            "word": "Abstellkammer für kaputte Rahmen",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Locations",
-            "word": "Museum für schlechte Kunst"
+            "word": "Museum für schlechte Kunst",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Locations",
-            "word": "Die laute Eingangshalle"
+            "word": "Die laute Eingangshalle",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Locations",
-            "word": "Das Sauriermuseum"
+            "word": "Das Sauriermuseum",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Locations",
-            "word": "die verstaubte Vitrine"
+            "word": "die verstaubte Vitrine",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Locations",
-            "word": "Dach der Kunsthauses"
+            "word": "Das Dach des Kunsthauses",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Locations",
-            "word": "Souvenir-Ecke"
+            "word": "Souvenir-Ecke",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Locations",
-            "word": "Apéro für geladene Gäste"
+            "word": "Apéro für geladene Gäste",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Locations",
-            "word": "Aarauer Rüeblimärt"
+            "word": "Aarauer Rüeblimärt",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Locations",
-            "word": "Alpen"
+            "word": "Alpen",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Locations",
-            "word": "Zahnarztpraxis"
+            "word": "Zahnarztpraxis",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Locations",
-            "word": "Hauptbahnhof"
+            "word": "Hauptbahnhof",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Locations",
-            "word": "Christoph Blochers Privatsammlung"
+            "word": "Christoph Blochers Privatsammlung",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Locations",
-            "word": "Schwimmbad"
+            "word": "Schwimmbad",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Locations",
-            "word": "Damentoilette"
+            "word": "Damentoilette",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Locations",
-            "word": "Baustelle"
+            "word": "Baustelle",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Locations",
-            "word": "Coop"
+            "word": "Coop",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Locations",
-            "word": "Dönerbude"
+            "word": "Dönerbude",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Locations",
-            "word": "Mac Donalds"
+            "word": "Mc Donald's",
+            "status": "ACTIVE"
         },
         {
             "wordCategory": "Locations",
-            "word": "Schulzimmer"
+            "word": "Schulzimmer",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "Vincent van Goghs Ohr",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "die Alarmanlage",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "ein lebendes Kunstwerk",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "ein halbes Schaf",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "Intelligente Kunst",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "eine an die Wand geklebte Banane",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "Grosse, runde Kreise",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "Eine wohl geformte Nase",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "ein schwarzes Viereck",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "Raubkunst",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "Kopfschmerzen",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "Ein Anfassverbot",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "die Farbe Rot",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "ein grosses Fragezeichen",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "ein Instapost",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "Fake News",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "Frauenquote",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "Künstliche Intelligenz",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "Eine Million",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "verknotete Kopfhörer",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "Meditationsrundgänge",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "Überwachungskameras",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "1'000'000 CHF",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "trockene Kuchen im Museumscafé",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "tanzende Skelette",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "Regenbogenfarben",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "gefälschte Unterschriften",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "Weltuntergansszenen",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "Gartenzwerge und Teddys",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "Brennende Bilderrahmen",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "Viele bunte Smarties",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": " Farbefressende Bakterien",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "Giftige Substanzen",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "Wachsende Kristalle",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "Peinliche Titel",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "Kunstwerke zum Essen",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "Skulpturen aus Vogelfutter",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "Smartphones",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Objects (singular) + (plural)",
+            "word": "Fehlende Sitzgelegenheiten",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Bundesrat Beat Jans",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "ein sabbernder Blindenhund",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Hodler auf dem Totenbett",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Ein Genie",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Mona Lisa's Onkel",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Ein Gönner",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Beyoncé im Louvre",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Die Chefetage",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Das Museums-Gespenst",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "der Präsident des Kunstvereins",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Justin Bieber",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Eine Kunstkritikerin",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Museumstechniker:in",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Alfred Hitchcock",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Deine Grossmutter",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Ein Blickreporter",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Die Kunsthaus-Band",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Ein unzufriedener Besucher",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "der Pöstler",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Banksy",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Vincent van Goghs Ohr",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "die Alarmanlage",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "ein lebendes Kunstwerk",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "ein halbes Schaf",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Intelligente Kunst",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "eine an die Wand geklebte Banane",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Grosse, runde Kreise",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Eine wohl geformte Nase",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "ein schwarzes Viereck",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Raubkunst",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Kopfschmerzen",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Ein Anfassverbot",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "die Farbe Rot",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "ein grosses Fragezeichen",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "ein Instapost",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Fake News",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Frauenquote",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Künstliche Intelligenz",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Eine Million",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Actionpainting",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Kulturelle Aneignung",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Farbe essen",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Viel Lärm um nichts",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "erzwungenes Überinterpretieren",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Ausdruckstanz",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "schrecklich altern",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Wenig für viel Geld",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "etwas, das ich auch könnte",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Realitätsferne",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "über den Rand malen",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Tomatensauce auf Kunstwerken",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "einen Shitstorm auslösen",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "wilde Farbkombinationen",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "den Namen tanzen",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Malen nach Zahlen",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Provokation",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "Bildmanipulation",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "ein Loch ins Bild schneiden",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) + Objects (singular) + Practices/States",
+            "word": "die Frage nach dem Sinn",
+            "status": "ACTIVE"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Bundesrat Beat Jans",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "ein sabbernder Blindenhund",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Hodler auf dem Totenbett",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Ein Genie",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Mona Lisa's Onkel",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Ein Gönner",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Beyoncé im Louvre",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Die Chefetage",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Das Museums-Gespenst",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "der Präsident des Kunstvereins",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Justin Bieber",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Eine Kunstkritikerin",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Museumstechniker:in",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Alfred Hitchcock",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Deine Grossmutter",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Ein Blickreporter",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Die Kunsthaus-Band",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Ein unzufriedener Besucher",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "der Pöstler",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) ",
+            "word": "Banksy",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "Vincent van Goghs Ohr",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "die Alarmanlage",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "ein lebendes Kunstwerk",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "ein halbes Schaf",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "Intelligente Kunst",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "eine an die Wand geklebte Banane",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "Grosse, runde Kreise",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "Eine wohl geformte Nase",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "ein schwarzes Viereck",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "der Eingangsschlüssel",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "Raubkunst",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "Kopfschmerzen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "Ein Anfassverbot",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "die Farbe Rot",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "ein grosses Fragezeichen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "ein Instapost",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "Fake News",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "Frauenquote",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "Künstliche Intelligenz",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Objects (singular)",
+            "word": "Eine Million",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "Actionpainting",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "Kulturelle Aneignung",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "Farbe essen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "Viel Lärm um nichts",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "erzwungenes Überinterpretieren",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "Ausdruckstanz",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "schrecklich altern",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "Wenig für viel Geld",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "etwas, das ich auch könnte",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "Realitätsferne",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "über den Rand malen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "Tomatensauce auf Kunstwerken",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "einen Shitstorm auslösen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "wilde Farbkombinationen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "den Namen tanzen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "Malen nach Zahlen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "Provokation",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "Bildmanipulation",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "ein Loch ins Bild schneiden",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Practices/States",
+            "word": "die Frage nach dem Sinn",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Vincent van Goghs Ohr",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "die Alarmanlage",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "ein lebendes Kunstwerk",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "ein halbes Schaf",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Intelligente Kunst",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "eine an die Wand geklebte Banane",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Grosse, runde Kreise",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Eine wohl geformte Nase",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "ein schwarzes Viereck",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Raubkunst",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Kopfschmerzen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Ein Anfassverbot",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "die Farbe Rot",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "ein grosses Fragezeichen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "ein Instapost",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Fake News",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Frauenquote",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Künstliche Intelligenz",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Eine Million",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "verknotete Kopfhörer",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Meditationsrundgänge",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Überwachungskameras",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "1'000'000 CHF",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "trockene Kuchen im Museumscafé",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "tanzende Skelette",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Regenbogenfarben",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "gefälschte Unterschriften",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Weltuntergansszenen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Gartenzwerge und Teddys",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Brennende Bilderrahmen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Viele bunte Smarties",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": " Farbefressende Bakterien",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Giftige Substanzen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Wachsende Kristalle",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Peinliche Titel",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Kunstwerke zum Essen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Skulpturen aus Vogelfutter",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Smartphones",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Fehlende Sitzgelegenheiten",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Bundesrat Beat Jans",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "ein sabbernder Blindenhund",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Hodler auf dem Totenbett",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Ein Genie",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Mona Lisa's Onkel",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Ein Gönner",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Beyoncé im Louvre",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Die Chefetage",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Das Museums-Gespenst",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "der Präsident des Kunstvereins",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Justin Bieber",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Eine Kunstkritikerin",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Museumstechniker:in",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Alfred Hitchcock",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Deine Grossmutter",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Ein Blickreporter",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Die Kunsthaus-Band",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Ein unzufriedener Besucher",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "der Pöstler",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Banksy",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "bekiffte Künstler",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "schlafende Aufsichten",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "alte, genervte Besucherinnen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "kreischende, untalentierte Kinder",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Kunstfälscher",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Kunstdiebe",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "vergessliche Sammlerinnen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Touristen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Praktikant:innen auf Rollschuhen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": " verwirrte Techniker:innen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Paparazzis",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "neureiche Influencer",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "hyperaktive Schulklassen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Naturmenschen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Besserwisser",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "tote Kunstschaffende",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Neobünzlis",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Kunstbanausen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Strickende Omas",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural) + Objects (singular) + (plural)",
+            "word": "Nerds",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Bundesrat Beat Jans",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "ein sabbernder Blindenhund",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Hodler auf dem Totenbett",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Ein Genie",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Mona Lisa's Onkel",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Ein Gönner",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Beyoncé im Louvre",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Die Chefetage",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Das Museums-Gespenst",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "der Präsident des Kunstvereins",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Justin Bieber",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Eine Kunstkritikerin",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Museumstechniker:in",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Alfred Hitchcock",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Deine Grossmutter",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Ein Blickreporter",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Die Kunsthaus-Band",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Ein unzufriedener Besucher",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "der Pöstler",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Banksy",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "bekiffte Künstler",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "schlafende Aufsichten",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "alte, genervte Besucherinnen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "kreischende, untalentierte Kinder",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Kunstfälscher",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Kunstdiebe",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "vergessliche Sammlerinnen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Touristen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Praktikant:innen auf Rollschuhen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": " verwirrte Techniker:innen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Paparazzis",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "neureiche Influencer",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "hyperaktive Schulklassen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Naturmenschen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Besserwisser",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "tote Kunstschaffende",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Neobünzlis",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Kunstbanausen",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Strickende Omas",
+            "status": "don't update"
+        },
+        {
+            "wordCategory": "Character (singular) + (plural)",
+            "word": "Nerds",
+            "status": "don't update"
         }
     ],
     "question_order": [
         {
             "teamName": "Ant",
-            "artworkIdOrder": "1, 2, 3, 4, 5"
+            "artworkIdOrder": "2, 3, 4, 5, 6, 7"
         },
         {
             "teamName": "Butterfly",
-            "artworkIdOrder": "2, 3, 4, 5, 1"
+            "artworkIdOrder": "4, 5, 6, 7, 8, 1"
         },
         {
             "teamName": "Cat",
-            "artworkIdOrder": "4, 3, 2, 1, 5"
+            "artworkIdOrder": "3, 4, 5, 6, 7, 8"
         },
         {
             "teamName": "Octopus",
-            "artworkIdOrder": "5, 4, 3, 2, 1"
+            "artworkIdOrder": "6, 7, 8, 1, 2, 3"
         },
         {
             "teamName": "Owl",
-            "artworkIdOrder": "3, 5, 4, 2, 1"
+            "artworkIdOrder": "5, 6, 7, 8, 1, 2"
         },
         {
             "teamName": "Whale",
-            "artworkIdOrder": "2, 4, 3, 5, 1"
+            "artworkIdOrder": "1, 2, 3, 4, 5, 6, 7, 8"
         }
     ]
 }

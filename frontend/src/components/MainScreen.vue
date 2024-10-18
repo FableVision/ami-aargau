@@ -2,7 +2,7 @@
     <div id="top-buttons-container">
         <button class="nav-button" id="back-button" @click="back()">
             <img id="back-image" src="@/assets/png/back.png">
-            Back
+            Zurück
         </button>
         <button class="nav-button" id="home-button" @click="home()">
             <img id="home-image" src="@/assets/png/home.png">
@@ -18,44 +18,44 @@
         </div>
     </div>
     <div id="choose-a-team" class="centered-div">
-        <div class="game-main-text">Join a team</div>
+        <div class="game-main-text">Einem Team beitreten oder ein Team erstellen</div>
         <div class="team-selection">
             <div class="team-container">
                 <button class="team-img-container" @click="chooseTeam('ant')">
                     <img class="team-img" src="@/assets/png/ant.png">
                 </button>
-                Ant
+                Ameise
             </div>
             <div class="team-container">
                 <button class="team-img-container" @click="chooseTeam('butterfly')">
                     <img class="team-img" src="@/assets/png/butterfly.png">
                 </button>
-                Butterfly
+                Schmetterling
                 
             </div>
             <div class="team-container">
                 <button class="team-img-container" @click="chooseTeam('cat')">
                     <img class="team-img" src="@/assets/png/cat.png">
                 </button>
-                Cat
+                Katze
             </div>
             <div class="team-container">
                 <button class="team-img-container" @click="chooseTeam('octopus')">
                     <img class="team-img" src="@/assets/png/octopus.png">
                 </button>
-                Octopus
+                Oktopus
             </div>
             <div class="team-container">
                 <button class="team-img-container" @click="chooseTeam('whale')">
                     <img class="team-img" src="@/assets/png/whale.png">
                 </button>
-                Whale
+                Wal
             </div>
             <div class="team-container">
                 <button class="team-img-container" @click="chooseTeam('owl')">
                     <img class="team-img" src="@/assets/png/owl.png">
                 </button>
-                Owl
+                Eule
             </div>
         </div>
     </div>
@@ -63,51 +63,51 @@
         <div class="artwork-container">
             <img id="artwork" :src="artworkImageUrl">
         </div>
-        <div>Find this painting</div>
+        <div>Finde dieses Kunstwerk</div>
         <span id="artwork-title">{{ artworkTitle }}</span>
         <div style="height: 50px"></div>
-        <button class="confirm-button" @click="nextPage">I found it!</button>
+        <button class="confirm-button" @click="nextPage">Gefunden!</button>
     </div>
     <div id="select-judge" class="centered-div center-vertically">
-        <span style="font-weight: bold;">Are you the judge?</span>
-        <span>The judge for this round is:</span>
+        <span style="font-weight: bold;">Bist du die Spielleitung?</span>
+        <span>Die Spielleitung für diese Runde ist:</span>
         <span style="font-weight: 600;" id="judge-question">{{judgeQuestion}}</span>
         <div style="height: 75px"></div>
-        <button class="option-button" @click="selectJudge(false)">No, I am not!</button>
-        <button class="option-button" @click="selectJudge(true)">Yes, I am!</button>
+        <button class="option-button" @click="selectJudge(false)">Nein, bin ich nicht.</button>
+        <button class="option-button" @click="selectJudge(true)">Ja, bin ich.</button>
     </div>
     <div id="pick-an-answer" class="centered-div">
         <span class="game-main-text">{{ questionText }}</span>
         <div style="height: 25px"></div>
         <div id='answer-selection-container' class="answer-selection">
-            <div class="answer-container" @click="selectAnswerOption(0)">The option they are picking goes here</div>
-            <div class="answer-container" @click="selectAnswerOption(1)">The option they are picking goes here</div>
-            <div class="answer-container" @click="selectAnswerOption(2)">The option they are picking goes here</div>
-            <div class="answer-container" @click="selectAnswerOption(3)">The option they are picking goes here</div>
+            <div class="answer-container" @click="selectAnswerOption(0)"></div>
+            <div class="answer-container" @click="selectAnswerOption(1)"></div>
+            <div class="answer-container" @click="selectAnswerOption(2)"></div>
+            <div class="answer-container" @click="selectAnswerOption(3)"></div>
         </div>
         <div style="height: 0px"></div>
         <div class="answer-redraw-container">
             <button class="redraw-icon-container" @click="refreshPossibleAnswers()">
                 <img class="redraw-icon" src="@/assets/png/delete.png">
             </button>
-            <span style="font-weight: 300; font-size: 14pt;">Discard and draw new options</span>
+            <span style="font-weight: 300; font-size: 14pt;">Verwerfen und neue Karten erhalten.</span>
         </div>
         <div style="height: 25px"></div>
-        <button id='answer-confirm' class="confirm-button" @click="submitAnswer">Submit</button>
+        <button id='answer-confirm' class="confirm-button" @click="submitAnswer">Eingabe</button>
     </div>
     <div id="submitted-answer" class="centered-div center-vertically">
-        <span style="font-size: 24pt; font-weight: bold;">You've submitted!</span>
-        <span style="text-align: center;">Let's wait until everyone has submitted their answers</span>
+        <span style="font-size: 24pt; font-weight: bold;">Du hast deine Antwort eingereicht!</span>
+        <span style="text-align: center;">Lass uns warten, bis alle anderen auch soweit sind.</span>
         <div style="height: 25px"></div>
-        <span style="text-align: center;">Are they done yet?</span>
+        <span style="text-align: center;">Sind alle ready?</span>
         <button class="confirm-button" @click="nextPage">Let's go!</button>
     </div>
     <div id="judge-pick" class="centered-div">
-        <span id="judge-screen-text" class="game-main-text">You are the judge!</span>
+        <span id="judge-screen-text" class="game-main-text">Du übernimmst die Spielleitung</span>
         <div id="answer-selection-instructions">
-            <span>1. Wait for all players to submit.</span>
-            <span>2. Ask each player to defend their responses.</span>
-            <span>3. Decide on the best response and reward that player with a point card!</span>
+            <span>1. Warte bis alle bereit sind.</span>
+            <span>2. Frag alle Spielenden danach, ihre Antwort zu begründen.</span>
+            <span>3. Entscheide wer die kreativste, spannendste oder passendste Antwort gegeben hat und verteile den Punkt.</span>
             <div style="height: 25px"></div>
         </div>
         <span class="game-main-text">{{ questionText }}</span>
@@ -115,13 +115,13 @@
             <button class="redraw-icon-container" @click="refreshJudgeOptions()">
                 <img class="redraw-icon" src="@/assets/png/refresh.png">
             </button>
-            <span style="font-weight: 300; font-size: 14pt;">Refresh for new submissions</span>
+            <span style="font-weight: 300; font-size: 14pt;">Aktualisieren für neue Beiträge</span>
         </div>
         <div id='judge-answer-selection' class="answer-selection">
-            <div class="answer-container" @click="selectJudgeOption(0)">The option they are picking goes here</div>
+            <div class="answer-container" @click="selectJudgeOption(0)"></div>
         </div>
         <div style="height: 25px"></div>
-        <button id='judge-confirm' class="confirm-button" @click="nextPage">Next Round</button>
+        <button id='judge-confirm' class="confirm-button" @click="nextPage">Nächste Runde</button>
     </div>
     <RouterView />
   </template>
@@ -239,7 +239,12 @@
 
                 const groupBanner = document.getElementById('group-banner');
                 const teamNameField = groupBanner.getElementsByClassName('banner-team-text')[0];
-                teamNameField.innerText = teamname.toUpperCase();
+                if(teamname.toLowerCase() == "ant") teamNameField.innerText = "Ameise".toUpperCase();
+                if(teamname.toLowerCase() == "butterfly") teamNameField.innerText = "Schmetterling".toUpperCase();
+                if(teamname.toLowerCase() == "cat") teamNameField.innerText = "Katze".toUpperCase();
+                if(teamname.toLowerCase() == "octopus") teamNameField.innerText = "Oktopus".toUpperCase();
+                if(teamname.toLowerCase() == "owl") teamNameField.innerText = "Eule".toUpperCase();
+                if(teamname.toLowerCase() == "whale") teamNameField.innerText = "Wal".toUpperCase();
 
                 teamImageUrl.value = getTeamImageUrl(teamName);
 
@@ -379,7 +384,7 @@
 
                 const groupBanner = document.getElementById('group-banner');
                 const questionField = groupBanner.getElementsByClassName('banner-round-text')[0];
-                questionField.innerText = "ROUND " + (questionIndex + 1);
+                questionField.innerText = "RUNDE " + (questionIndex + 1);
 
                 const isChooseTeamScreen = screenIndex == 0;
                 groupBanner.style.display = isChooseTeamScreen ? 'none' : 'flex';
@@ -447,7 +452,7 @@
                 judgeInstructions.style.display = isJudge ? 'flex' : 'none';
 
                 const judgeTitle = document.getElementById('judge-screen-text')
-                judgeTitle.innerText = isJudge ? "You are the judge!" : "All Responses";
+                judgeTitle.innerText = isJudge ? "Du übernimmst die Spielleitung" : "Alle Antworten";
 
                 // Grab the current options
                 selectJudgeOption(-1);

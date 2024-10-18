@@ -1,8 +1,8 @@
 <template>
     <div class="title-background"></div>
     <div class="centered-div center-vertically">
-        <div class="title-text">Game Name Here</div>
-        <button class="title-play-button" @click="play">Play</button>
+        <div class="title-text">Spielende!</div>
+        <button class="title-play-button" @click="play">Zurück zum Start</button>
     </div>
     <RouterView />
 </template>
@@ -12,7 +12,6 @@
     import { RouterLink, RouterView } from 'vue-router'
     import { useRouter } from 'vue-router';
     import { useStore } from 'vuex';
-    import allText from '../text/text.json'
 
     export default {
         setup() {
@@ -23,7 +22,7 @@
             });
 
             function play() {
-                router.push('/game');
+                router.push('/title');
             }
 
             return {

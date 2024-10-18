@@ -1,8 +1,8 @@
 <template>
     <div class="title-background"></div>
     <div class="centered-div center-vertically">
-        <div class="title-text">Game Name Here</div>
-        <button class="title-play-button" @click="play">Play</button>
+        <div class="title-text">Beyoncé im Aargauer Kunsthaus</div>
+        <button class="title-play-button" @click="play">Spielen</button>
     </div>
     <RouterView />
 </template>

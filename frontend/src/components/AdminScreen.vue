@@ -5,7 +5,7 @@
         </button>
     </div>
     <div id="choose-a-team" class="centered-div">
-        <div class="game-main-text">Click on a team to reset their answers</div>
+        <div class="game-main-text">Klicke auf ein Team, um die Antworten zurück zu setzen.</div>
         <div class="team-selection">
             <div class="team-container">
                 <button class="team-img-container" @click="reset('ant')">
@@ -46,7 +46,7 @@
             </div>
         </div>
         <div style="height: 50px"></div>
-        <button class="confirm-button" @click='reset("ALL")'>Reset all teams</button>
+        <button class="confirm-button" @click='reset("ALL")'>Alle Teams zurücksetzen</button>
     </div>
     <RouterView />
   </template>
@@ -67,32 +67,32 @@
                 console.log("on mounted");
             });
             
-            const Ant = ref('Ant');
-            const Butterfly = ref('Butterfly');
-            const Cat = ref('Cat');
-            const Octopus = ref('Octopus');
-            const Owl = ref('Owl');
-            const Whale = ref('Whale');
+            const Ant = ref('Ameise');
+            const Butterfly = ref('Schmetterling');
+            const Cat = ref('Katze');
+            const Octopus = ref('Oktopus');
+            const Owl = ref('Eule');
+            const Whale = ref('Wal');
             
             function reset(groupname) {
                 let resetMode = "FULLRESET";
                 if(groupname == "ALL"){
                     resetMode = "FULLRESETALL";
 
-                    Ant.value = "Ant Reset!";
-                    Butterfly.value = "Butterfly Reset!";
-                    Cat.value = "Cat Reset!";
-                    Octopus.value = "Octopus Reset!";
-                    Owl.value = "Owl Reset!";
-                    Whale.value = "Whale Reset!";
+                    Ant.value = "Ameise Reset!";
+                    Butterfly.value = "Schmetterling Reset!";
+                    Cat.value = "Katze Reset!";
+                    Octopus.value = "Oktopus Reset!";
+                    Owl.value = "Eule Reset!";
+                    Whale.value = "Wal Reset!";
                 }
                 else{
-                    if(groupname == "ant") Ant.value = "Ant Reset!";
-                    if(groupname == "butterfly") Butterfly.value = "Butterfly Reset!";
-                    if(groupname == "cat") Cat.value = "Cat Reset!";
-                    if(groupname == "octopus") Octopus.value = "Octopus Reset!";
-                    if(groupname == "owl") Owl.value = "Owl Reset!";
-                    if(groupname == "whale") Whale.value = "Whale Reset!";
+                    if(groupname == "ant") Ant.value = "Ameise zurücksetzen";
+                    if(groupname == "butterfly") Butterfly.value = "Schmetterling zurücksetzen";
+                    if(groupname == "cat") Cat.value = "Katze zurücksetzen";
+                    if(groupname == "octopus") Octopus.value = "Oktopus zurücksetzen";
+                    if(groupname == "owl") Owl.value = "Eule zurücksetzen";
+                    if(groupname == "whale") Whale.value = "Wal zurücksetzen";
                 }
 
                 const group = groupname;
